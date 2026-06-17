@@ -8,29 +8,28 @@ Uma referência importante para este projeto foi o calendário astronômico disp
 
 Com o auxílio de inteligência artificial e dados astronômicos obtidos em [Time and Date](https://www.timeanddate.com/), o calendário foi adaptado para o contexto brasileiro:
 
-- Tradução completa para Português do Brasil (pt-BR);
+- Tradução completa para português do Brasil (pt-BR);
 - Inclusão das estações do ano do hemisfério sul e respectivos ícones;
 - Ajuste da representação visual das fases da Lua para o hemisfério sul;
 - Cobertura de 3 de janeiro de 2026 a 29 de dezembro de 2035.
 
-## Captura de Tela
+## Preview
 <p align="center">
-  <img src="preview.png" alt="Prévia do calendário" width="1200">
+  <img src="preview.png" width="100%">
 </p>
 
 ## Atualizações
 
 Este calendário é mantido continuamente. Caso sejam identificadas correções ou melhorias, o arquivo será atualizado neste repositório.
 
-#### Webcal
+## Adicionar
 
 ```text
 webcal://raw.githubusercontent.com/lxwndr/astrocal/main/astrocal.ics
 ```
-#### HTTPS
 
 ```text
 https://raw.githubusercontent.com/lxwndr/astrocal/main/astrocal.ics
 ```
 
-Os usuários que assinarem este calendário pelo webcal receberão as atualizações automaticamente, de acordo com a frequência de sincronização do aplicativo utilizado.
+Ao adicionar este calendário ao seu aplicativo de agenda, as atualizações serão recebidas automaticamente, de acordo com a frequência de sincronização do aplicativo utilizado.
