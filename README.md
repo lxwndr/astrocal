@@ -6,11 +6,11 @@ Embora o Google Agenda ofereça suporte nativo às fases da Lua, a apresentaçã
 
 Uma referência importante para este projeto foi o calendário astronômico disponibilizado por [Canton Becker](https://cantonbecker.com/astronomy-calendar/).
 
-Com o auxílio de inteligência artificial e dados astronômicos obtidos em [Time and Date](https://www.timeanddate.com/), o calendário foi adaptado para o contexto brasileiro:
+Com o auxílio de inteligência artificial, da biblioteca astronômica _ephem_ e validação via [Time and Date](https://www.timeanddate.com/), o calendário foi adaptado para o contexto brasileiro:
 
 - Tradução completa para português do Brasil (pt-BR);
 - Inclusão das estações do ano do hemisfério sul e respectivos ícones;
-- Ajuste da representação visual das fases da Lua para o hemisfério sul;
+- Ajuste da representação visual das fases da lua para o hemisfério sul;
 - Cobertura de Janeiro de 2025 a Dezembro de 2100.
 
 ## Preview
@@ -24,12 +24,13 @@ Este calendário é mantido continuamente. Caso sejam identificadas correções 
 
 ## Adicionar
 
+• _Apple Calendar_ e outros:
 ```text
 webcal://raw.githubusercontent.com/lxwndr/astrocal/main/astrocal.ics
 ```
-
+• _Google Calendar_, _Microsoft Outlook_, _Mozilla Thunderbird_, _Proton Calendar_ e outros:
 ```text
 https://raw.githubusercontent.com/lxwndr/astrocal/main/astrocal.ics
 ```
 
-Ao adicionar este calendário ao seu aplicativo de agenda, as atualizações serão recebidas automaticamente, de acordo com a frequência de sincronização do aplicativo utilizado.
+As atualizações serão sincronizadas automaticamente, podendo levar algumas horas.
