@@ -11,7 +11,7 @@ Com o auxílio de inteligência artificial, da biblioteca astronômica _ephem_ e
 - Tradução completa para português do Brasil (pt-BR);
 - Inclusão das estações do ano do hemisfério sul e respectivos ícones;
 - Ajuste da representação visual das fases da lua para o hemisfério sul;
-- Cobertura de Janeiro de 2025 a Dezembro de 2100.
+- Cobertura de Janeiro de 2000 a Dezembro de 2099.
 
 ## Preview
 <p align="center">
